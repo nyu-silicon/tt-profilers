@@ -1,13 +1,9 @@
 # tt-profilers - Profiling models on tenstorrent hardware and simulators. 
 
-Tenstorrent has an established open-source card profiler toolkit. This repository uses industry standard LLM profiling techniques like time to first token, time per output token, throughput underload, etc. on Tenstorrent Hardware, and shares the results.
+Tenstorrent has an established open-source card profiler toolkit. The purpose of this project is to gain familiarity with standard LLM profiling techniques, with specific studies on Tenstorrent's codebase. Industry standard LLM profiling techniques were also studied. Following the study, small profilers are built, ultimately culminating in a Meta Dynolog-style profiler.
 
-This repository currently profiles only on Tenstorrent Simulators.
+## Resources Used
+The following resources were indispensable in our quest for learning more about LLM inference profiling.
 
-## Setup
-
-Run
-```
-$ ./setup.sh
-```
-
+1. https://www.databricks.com/blog/llm-inference-performance-engineering-best-practices
+2. 
